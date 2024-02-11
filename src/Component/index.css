@@ -1,0 +1,96 @@
+button {
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .time {
+    font-size: 15px;
+  }
+  .medium-div-time {
+    display: none;
+  }
+  .logo-website-Div {
+    display: flex;
+  }
+  .logoImage {
+    height: 28px;
+    width: 28px;
+  }
+  .title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .domine {
+    color: #64748b;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+  .list-details-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .deleteIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  .list-details-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .deleteIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .logo-website-Div {
+    display: flex;
+    align-items: center;
+  }
+  .logoImage {
+    height: 30px;
+    width: 30px;
+  }
+  .title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    color: #475569;
+    margin-bottom: 0px;
+    margin-left: 15px;
+  }
+  .domine {
+    color: #64748b;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .medium-div-title {
+    display: flex;
+  }
+
+  .medium-div-time {
+    display: block;
+    font-size: 15px;
+    font-family: Roboto;
+    margin-right: 15px;
+  }
+  .time {
+    display: none;
+  }
+}
